@@ -1,0 +1,33 @@
+.hero{
+
+  &__img{
+    width: 100%;
+    
+  }
+  &__cards{
+    justify-content: space-around;
+    width: 90%;
+    
+    &__item{
+      width: 25%;
+      padding-bottom: 15px;
+    }
+    &__img{
+      height: 250px;
+      >img{
+        height: 100%;
+      }
+    } 
+  }
+  &__title{
+    font-size: 72px;
+  }
+  &__btn{
+    border: none;
+    border-bottom: 2px solid black;
+    &:hover{
+      border: none;
+      transform: translateY(2px);
+    } 
+  }
+}
