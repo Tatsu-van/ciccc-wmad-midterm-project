@@ -14,7 +14,7 @@
 --> Several works that I created before
 
 <h2> 5. What libraries/technology/ api you used </h2>
---> Sass, Simple Javascript
+--> Sass, Simple Javascript, JQuery
 
 <h2> 6. What did you learn? What was the most challenging part? </h2>
 --> Creating card item
