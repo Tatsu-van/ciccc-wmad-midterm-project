@@ -8,7 +8,7 @@
 --> Simple ecommerce site if change motorcycle to cloths or something, can be aplied
 
 <h2> 3. Why did you decide to make this project? </h2>
---> I want to get my own motorcylce someday
+--> I want to have my own motorcylce someday
 
 <h2> 4. What reference did you use? </h2>
 --> Several works that I created before
