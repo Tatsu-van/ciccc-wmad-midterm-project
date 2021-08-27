@@ -643,6 +643,9 @@ main {
   .contact__form .input__right {
     width: 50%;
   }
+  .location {
+    height: 900px;
+  }
 }
 
 @media (min-width: 960px) {
