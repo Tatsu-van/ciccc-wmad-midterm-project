@@ -49,6 +49,9 @@
   &__form{
     & .input{
       flex-direction: row;
+      &__left{
+        width: 50%;
+      }
       &__right{
         width: 50%;
       }

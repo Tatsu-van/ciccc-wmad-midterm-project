@@ -1,0 +1,52 @@
+.header {
+  &__logo{
+    font-size: 40px;
+    margin-left: 50px;
+    width: 300px;
+  }
+  &__inner{
+    width: 300px;
+  }
+  &__nav {
+    display: flex;
+  }
+
+  & .toggle {
+    display: none;
+  }
+
+  &__menu {
+    width: 100%;
+    background-color: transparent;
+    margin: 0 10px;
+    transform: translateX(0);
+    transition: none;
+  }
+
+  &__list {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__list, &__item, > a {
+    padding: 0 1em;
+    font-size: 24px;
+  }
+
+  &__list, &__item, > a:hover {
+    background-color: transparent;
+  }
+}
+
+.footer {
+  &__ul{
+    flex-direction: row;
+  }
+  &__li{
+      margin-left: 48px;
+      margin-right: 48px;
+  }
+}

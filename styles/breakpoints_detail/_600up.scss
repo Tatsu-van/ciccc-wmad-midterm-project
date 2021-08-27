@@ -1,0 +1,20 @@
+.detail{
+  
+  width: 80%;
+  &__img{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  &__description{
+    &__name, &__price{
+      font-size: 36px;
+    }
+    &__body{
+      font-size: 24px;
+      margin-bottom: 50px;
+    }
+  }
+  &__cart{
+    justify-content: flex-start;
+  }
+}

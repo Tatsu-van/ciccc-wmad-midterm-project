@@ -375,9 +375,7 @@ main {
 }
 
 .location__content {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
 }
 
 .location .btn {
@@ -629,6 +627,9 @@ main {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .contact__form .input__left {
+    width: 50%;
+  }
   .contact__form .input__right {
     width: 50%;
   }
@@ -637,6 +638,12 @@ main {
 @media (min-width: 960px) {
   .main-title {
     font-size: 48px;
+    margin: 100px 0;
+  }
+  .header__logo {
+    font-size: 40px;
+    margin-left: 50px;
+    width: 300px;
   }
   .header__inner {
     width: 300px;
@@ -674,6 +681,7 @@ main {
   }
   .header__list, .header__item, .header > a {
     padding: 0 1em;
+    font-size: 24px;
   }
   .header__list, .header__item, .header > a:hover {
     background-color: transparent;
@@ -759,6 +767,9 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .location__content .btn {
+    margin: 0 auto;
   }
   .location__description {
     font-size: 24px;
