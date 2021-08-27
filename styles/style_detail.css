@@ -100,6 +100,8 @@ main {
   z-index: 1000;
   top: 0;
   background-color: white;
+  -webkit-box-shadow: 1px 1px 5px 3px #505050;
+          box-shadow: 1px 1px 5px 3px #505050;
 }
 
 .header__logo {

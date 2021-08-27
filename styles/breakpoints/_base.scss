@@ -10,6 +10,10 @@ img{
   vertical-align: bottom;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
 .font-sm {
   font-size: 14px;
 }
@@ -97,6 +101,8 @@ section{
   z-index: 1000;
   top: 0;
   background-color: white;
+  box-shadow: 1px 1px 5px 3px rgb(80, 80, 80);
+
 
   &__logo{
     font-size: 32px;
