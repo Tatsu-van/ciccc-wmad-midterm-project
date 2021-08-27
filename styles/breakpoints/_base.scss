@@ -89,104 +89,7 @@ section{
   z-index: 10;
 }
 
-// .header {
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: $navHeight;
-//   background-color: transparent;
-//   display: flex;
-//   align-items: center;
-//   z-index: 200;
-//   background-color: white;
 
-//   &.triggered {
-//     background-color: rgba(255, 255, 255, 0.9);
-//     box-shadow: 10px 0 25px -10px rgba(0, 0, 0, 0.5);
-//   }
-
-//   &__nav {
-//     display: none;
-//   }
-
-//   &__ul {
-//     display: flex;
-//     padding: 0;
-//     margin: 0;
-//     list-style: none;
-//     align-items: center;
-//   }
-
-//   &__li {
-//     margin-left: 20px;
-
-//     & > a {
-//       color: $cBlack;
-//       text-decoration: none;
-//       text-transform: uppercase;
-//     }
-//   }
-
-//   & .logo {
-//     font-size: 38px;
-//     justify-content: center;
-//   }
-
-//   &__inner {
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     @extend .content-width;
-//   }
-
-//   & .toggle {
-//     display: block;
-//     position: fixed;
-//     width: 42px;
-//     height: 42px;
-//     cursor: pointer;
-//     z-index: 3;
-//     right: 25px;
-
-//     & > span {
-//       display: block;
-//       position: absolute;
-//       width: 50px;
-//       border-bottom: solid 4px black;
-//       -webkit-transition: .35s ease-in-out;	/*変化の速度を指定*/
-//       -moz-transition: .35s ease-in-out;		/*変化の速度を指定*/
-//       transition: .35s ease-in-out;
-//     }
-//     & #line1 {
-//       top:5px;
-//       &.active {
-//         top: 18px;
-//         -webkit-transform: rotate(-45deg);
-//         -moz-transform: rotate(-45deg);
-//         transform: rotate(-45deg);
-//       }
-//     }
-//     & #line2 {
-//         top: 18px;
-//         &.active {
-//             top: 18px;
-//             -webkit-transform: rotate(45deg);
-//             -moz-transform: rotate(45deg);
-//             transform: rotate(45deg);
-//         }
-//     }
-//     & #line3 {
-//         top: 32px;
-//         &.active {
-//           top: 18px;
-//           -webkit-transform: rotate(45deg);
-//           -moz-transform: rotate(45deg);
-//           transform: rotate(45deg);
-//       }
-//     }
-//   }
-// } 
 
 .header {
   position: fixed;
@@ -201,6 +104,7 @@ section{
   & .van {
     color: rgb(255,1,0);
     font-style: italic;
+    font-weight: bold;
   }
   & .motors{
     color: black;

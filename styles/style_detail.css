@@ -109,6 +109,7 @@ main {
 .header .van {
   color: #ff0100;
   font-style: italic;
+  font-weight: bold;
 }
 
 .header .motors {
@@ -354,8 +355,17 @@ span {
   font-size: 16px;
   background-color: #ff0100;
   color: white;
-  border: none;
+  border: 2px solid #ff0100;
   margin-left: 20px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.cart__btn:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid #ff0100;
+  color: #ff0100;
 }
 
 .footer {

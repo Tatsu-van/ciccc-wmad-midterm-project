@@ -9,4 +9,3 @@ function hamburger() {
 document.getElementById('toggle').addEventListener('click' , function () {
   hamburger();
 });
-console.log('a');
