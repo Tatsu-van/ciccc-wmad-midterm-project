@@ -324,6 +324,10 @@ main {
   border-radius: 50%;
 }
 
+.color:hover {
+  cursor: pointer;
+}
+
 span {
   cursor: pointer;
 }
