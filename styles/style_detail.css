@@ -284,6 +284,43 @@ main {
           align-items: center;
 }
 
+.detail__colors {
+  width: 80%;
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.detail__color1 {
+  background-color: red;
+}
+
+.detail__color2 {
+  background-color: #0044ff;
+}
+
+.detail__color3 {
+  background-color: lime;
+}
+
+.detail__color4 {
+  background-color: black;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
 span {
   cursor: pointer;
 }
@@ -390,6 +427,25 @@ span {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+  }
+  .detail__colors {
+    width: 100%;
+    margin: 30px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .color {
+    margin: 0 20px;
+    width: 60px;
+    height: 60px;
   }
 }
 

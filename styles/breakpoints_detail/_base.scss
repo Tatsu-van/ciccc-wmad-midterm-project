@@ -255,7 +255,31 @@ section{
     justify-content: center;
     align-items: center;
   }
-  
+  &__colors{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &__color1{
+    background-color: red;
+  }
+  &__color2{
+    background-color:rgb(0, 68, 255);
+  }
+  &__color3{
+    background-color: rgb(0, 255, 0);
+  }
+  &__color4{
+    background-color: black;
+  }
+}
+
+.color{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 span {
